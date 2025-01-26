@@ -3,14 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://ashu4040.github.io/Youtube-Clone",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "vite build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.3.0",
@@ -35,4 +32,4 @@
     "tailwindcss": "^3.4.15",
     "vite": "^5.4.10"
   }
-}
+} 

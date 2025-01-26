@@ -1,4 +1,4 @@
-const Api_key = import.meta.env.VITE_YOUTUBE_API_KEY;
+const Api_key = "AIzaSyCYTtmURKjHc8r-czlOFt_va7qa-ebUDQE";
 
 export const Youtube_Api =
   "https://youtube.googleapis.com/youtube/v3/videos?part=snippet,contentDetails,statistics&chart=mostPopular&maxResults=50&regionCode=IN&key=" +

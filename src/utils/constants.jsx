@@ -9,6 +9,6 @@ export const getCommentKey = (videoId) => {
 };
 
 export const Search_Api =
-  "http://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=";
+  "https://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=";
 
 export const Search_Result = `https://www.googleapis.com/youtube/v3/search?key=${Api_key}&part=snippet&type=video`;
